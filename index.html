@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+    <script src="./script.js" defer></script>
+    <title>Intro section with dropdown navigation</title>
+</head>
+<body>
+    <header>
+        <div class="logo-menu-container">
+            <div class="logo-menu-button-container">
+                <a class="logo" href="#">
+                    <img src="./images/logo.svg" alt="">
+                </a>
+                <button id="menu-botton" class="menu-botton"><img  src="./images/icon-menu.svg" alt=""></button>
+            </div>
+            <div class="main-container-menu" id="main-container-menu" area="false">
+                <div class="main-menu">
+                    <button id ="close-menu-botton" class="close-menu-botton"><img src="./images/icon-close-menu.svg" alt=""></button>
+                    <ul>
+                        <li>
+                            <a href="#" id="features-button" area="false"><div>Features</div><img id="close-open-img1-down" src="./images/icon-arrow-down.svg" alt=""><img id="close-open-img1-up" src="./images/icon-arrow-up.svg" alt=""style="display: none;"></a>
+                            <div id="drop-down-one" class="drop-down-menu | drop-down-one" style="display:none;">
+                                <ul>
+                                    <li><a href="#"><img src="./images/icon-todo.svg" alt=""> List</a></li>
+                                    <li><a href="#"><img src="./images/icon-calendar.svg" alt="">Calendar</a></li>
+                                    <li><a href="#"><img src="./images/icon-reminders.svg" alt="">Reminders</a></li>
+                                    <li><a href="#"><img src="./images/icon-planning.svg" alt="">Planning</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" id="company-button" area="open">Company<img id="close-open-img2-down" src="./images/icon-arrow-down.svg" alt=""><img id="close-open-img2-up" src="./images/icon-arrow-up.svg" alt=""style="display: none;"></a>
+                            <div id="drop-down-two" class="drop-down-menu | drop-down-two" style="display:none;">
+                                <ul>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Our Team</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="login-register-container">
+                    <button class="login-mobile">Login</button>
+                    <button class="register-mobile">Register</button>
+                </div>
+            </div> <!-- main-container-menu closer -->
+        </div>
+        <div class="login-register-container">
+            <button class="login-desktop">Login</button>
+            <button class="register-desktop">Register</button>
+        </div>
+    </header>
+    <main>
+        <div class="text-container-left">
+            <h1 class="main-title">Make remote work</h1>
+            <div class="paragraphe-container">
+                <p class="paragraphe">
+                    Get your team in sync, no matter your   location. Streamline processes, create team rituals, and watch productivity soar.
+                </p>
+            </div>
+            <button class="learn-more-button">Learn more</button>
+            <div class="footer-main-icons">
+                <img class="databiz" src="./images/client-databiz.svg" alt="databiz">
+                <img class="audiophile" src="./images/client-audiophile.svg" alt="audiophile">
+                <img class="meet" src="./images/client-meet.svg" alt="meet">
+                <img class="client-maker" src="./images/client-maker.svg" alt="client-maker">
+            </div>
+        </div>
+        <div class="img-container-right">
+            <img  class="big-img-class" alt="heroImg">
+        </div>
+    </main>
+</body>
+</html>
