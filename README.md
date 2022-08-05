@@ -37,8 +37,8 @@ Users should be able to:
 ![](./design/mobile-menu-collapsed.jpg.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [gethub repo](https://github.com/medsagou/intro-section-with-dropdown-navigation-version-1.1.2.git)
+- Live Site URL: [Preview](https://medsagou.github.io/intro-section-with-dropdown-navigation-version-1.1.2/)
 
 ## My process
 no process just keep going when you get stuck.
