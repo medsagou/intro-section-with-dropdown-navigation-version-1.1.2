@@ -263,7 +263,7 @@ button:hover{
     body{
         background-color: var(--neutral-100);
         max-width: 80rem;
-        min-width: 40rem ;
+        min-width: 43rem ;
         margin: auto;
     }
     .login-desktop,.register-desktop{
@@ -390,14 +390,14 @@ button:hover{
     }
     .img-container-right img {
         max-height: 35rem;
-        min-height: 5rem;
+        min-height: 7rem;
         width: auto;
     }
     /* styling the title */
     .main-title {
         font-size: 4rem;
         line-height: 3.5rem;
-/*         min-width: 27rem; */
+        /* min-width: 27rem; */
         max-width: 27rem;
         margin-bottom: 1.5rem;
         margin-top: 8rem;
@@ -406,7 +406,7 @@ button:hover{
         font-size: 1rem;
         text-align: start ;
         max-width: 25rem;
-/*         min-width: 25rem; */
+        /* min-width: 25rem; */
     }
     .learn-more-button{
         font-size: .7rem;
@@ -449,176 +449,7 @@ button:hover{
 
 }
 
-/* @media (max-width: 900px) and ( min-width: 600px){
-    body{
-        background-color: var(--neutral-100);
-        max-width: 80rem;
-        min-width: 45rem ;
-     }
-    .login-desktop,.register-desktop{
-        display: block;
-    }
-    .main-container-menu{
-        display: block !important;
-    }
-    .close-menu-botton,
-    .menu-botton,
-    .register-mobile,
-    .login-mobile{
-        display: none;
-    }
-    .big-img-class{
-        content: url('./images/image-hero-desktop.png');
-    }
-    .main-container-menu{
-        background-color: transparent;
-        box-shadow: none;
-        position: static;
-        overflow: visible;
-    }
-    .main-menu > ul{
-        display: flex;
-        position: relative;
-        align-items: center;
-    }
-    .main-menu >ul li {
-        text-align: center;
-        margin-left: 1.5vw;
-    }
-    header{
-        height: 2rem;
-        padding-top: 2.5rem;
-        padding-right: 2rem;
-        padding-left: 2rem;
-        margin-bottom: 3rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    header *{
-        font-size: .8rem;
-    }
-    .logo-menu-container{
-        display: flex;
-        align-items: center;
-    }
-    .login-register-container{
-        flex-direction: row;
-        color: var(--neutral-200);
-    }
-    .login-desktop {
-        margin: 0 2em 0 0 !important;
-        padding: 0 ;
-    }
-    .register-desktop{
-        border: .15em solid var(--neutral-200);
-        border-radius: .9em ;
-        padding: .5em 1.5em !important;
-    }
-    .logo{
-        padding-top: .5rem;
-        margin-right: 1rem;
-    }
-    .drop-down-menu {
-        position: absolute;
-        display: block;
-        background-color:var(--neutral-100);
-    }
-    .drop-down-menu ul {
-        padding: 0;
-    }
-    .drop-down-one {
-        display: inline-block;
-        border-radius: .5rem;
-        box-shadow: 0 0 4rem -2rem var(--neutral-200);
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 1.5rem;
-        padding-bottom: .5rem;
-        left:2rem;
-    }
-    .drop-down-two {
-        display: inline-block;
-        border-radius: .5rem;
-        box-shadow: 0 0 4rem -2rem var(--neutral-200);
-        right:8rem;
-        padding-left: .5rem;
-        padding-right: 1.5rem;
-        padding-top: 1.5rem;
-        padding-bottom: .5rem;
-    }
-    .drop-down-one ul a{
-        margin-left: -2rem;
-        padding: 0;
-    }
-    .drop-down-two ul a {
-        padding: 0;
-    }
-        /* main content style */
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "a"
-            "b";
-        margin-left: 5vw;
-        margin-right: 5vw;
-        justify-items: center;
-    }
-    .footer-main-icons{
-        display: block;
-    }
-    .text-container-left{
-        grid-area: a;
-        margin-left: 5rem;
-        min-width: none;
-    }
-    .img-container-right{
-        grid-area: b;
-    }
-    .img-container-right img {
-        max-height: 35rem;
-        min-height: 5rem;
-        width: auto;
-    }
-    /* styling the title */
-    .main-title {
-        font-size: 4rem;
-        line-height: 3.5rem;
-        min-width: 27rem;
-        max-width: 27rem;
-        margin-bottom: 1.5rem;
-        margin-top: 8rem;
-    }
-    .paragraphe{
-        font-size: 1rem;
-        text-align: start ;
-        max-width: 25rem;
-        min-width: 25rem;
-    }
-    .learn-more-button{
-        font-size: .7rem;
-        border-radius: .8em;
-        padding: .6rem 1.1rem .6rem 1.1rem;
-        margin: 3rem 0;
-        text-align: center;
-        border: 2px solid transparent;
-    }
-    .footer-main-icons{
-        display: flex;
-        padding: 0;
-        margin: 0;
-        gap:0;
-        width: fit-content;
-        margin-top: 1rem;
-    }
-    .footer-main-icons img {
-        width: 5rem;
-        margin-right: 2rem;
-    }
 
-
-} */
 @media (hover: hover) {
         /* hover things */
 
