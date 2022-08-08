@@ -259,7 +259,7 @@ button:hover{
     display: none;
 }
 /* desktop version */
-@media (min-width: 900px){
+@media (min-width: 600px){
     body{
         background-color: var(--neutral-100);
         max-width: 80rem;
@@ -397,7 +397,7 @@ button:hover{
     .main-title {
         font-size: 4rem;
         line-height: 3.5rem;
-        min-width: 27rem;
+/*         min-width: 27rem; */
         max-width: 27rem;
         margin-bottom: 1.5rem;
         margin-top: 8rem;
@@ -406,7 +406,7 @@ button:hover{
         font-size: 1rem;
         text-align: start ;
         max-width: 25rem;
-        min-width: 25rem;
+/*         min-width: 25rem; */
     }
     .learn-more-button{
         font-size: .7rem;
