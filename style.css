@@ -449,7 +449,7 @@ button:hover{
 
 }
 
-@media (max-width: 900px) and ( min-width: 600px){
+/* @media (max-width: 900px) and ( min-width: 600px){
     body{
         background-color: var(--neutral-100);
         max-width: 80rem;
@@ -618,7 +618,7 @@ button:hover{
     }
 
 
-}
+} */
 @media (hover: hover) {
         /* hover things */
 
