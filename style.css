@@ -643,6 +643,10 @@ button:hover{
 
 }
 @media (max-width: 600px){
+    
+    body{
+        background-color: var(--neutral-100);
+    }
     .text-container-left{
         justify-content: center;
     }
